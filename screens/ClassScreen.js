@@ -39,7 +39,7 @@ const ClassScreen = () => {
   return (
     <View style={styles.container}>
       {loading ? (
-        <ActivityIndicator size="large" color={colors.primary.DEFAULT} />
+        <ActivityIndicator size={50} color={colors.primary.DEFAULT} />
       ) : (
         <ScrollView
           style={styles.bookedList}
